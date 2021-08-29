@@ -1,0 +1,23 @@
+name: redis-cli
+version: 0.1.0
+
+authors:
+  - kandayo <kdy@absolab.xyz>
+
+targets:
+  redis-cli:
+    main: src/entrypoint.cr
+
+dependencies:
+  fancyline:
+    github: Papierkorb/fancyline
+    version: ~> 0.4.1
+
+development_dependencies:
+  ameba:
+    github: crystal-ameba/ameba
+    version: ~> 0.14.0
+
+crystal: 1.1.1
+
+license: MIT

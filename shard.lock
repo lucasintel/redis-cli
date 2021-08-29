@@ -1,0 +1,18 @@
+version: 2.0
+shards:
+  ameba:
+    git: https://github.com/crystal-ameba/ameba.git
+    version: 0.14.3
+
+  cute:
+    git: https://github.com/papierkorb/cute.git
+    version: 0.4.0
+
+  fancyline:
+    git: https://github.com/papierkorb/fancyline.git
+    version: 0.4.1
+
+  future:
+    git: https://github.com/crystal-community/future.cr.git
+    version: 1.0.0
+
